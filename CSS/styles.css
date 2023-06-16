@@ -1,0 +1,144 @@
+/*********property selectors**********/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: black;
+}
+
+
+h1 {
+  font-size: 5.625rem;
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #D8EEDD;
+  line-height: 2;
+  padding-top: 100px;
+}
+
+p {
+  font-size: 1.5REM;  
+  color: #D8EEDD;
+}
+
+span {
+  text-decoration: underline;
+  color: #906CAF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #91D2EF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #D8EEDD;
+  font-weight: bolder;
+  font-size: 1.8REM;
+}
+hr {
+width: 4%;
+margin: 100px auto;
+  border: 6px dotted #EAF6F6;
+  border-bottom: 0;
+
+}
+button {
+margin: 3em auto 3em auto;
+}
+a:hover {
+  color: #D8EEDD;
+}
+ul {
+  font-size: 1.5rem;
+  color: #D8EEDD;
+}
+/*********class selectors**********/
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.3;
+}
+.btn {
+  color: #91D2EF;
+
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  color: #91D2EF;
+ 
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 70px;
+  height: 10REM;
+}
+
+.bottom-cloud {
+  position: absolute;
+  /* top: 250px;
+  left: 200px; */
+  height: 10REM
+}
+
+.wendy {
+  margin-top: 50px;
+  width: 20%;
+  padding-top: 11REM;
+  padding-left: 3REM;
+}
+.unicorn {
+  width: 33%;
+  float: left;
+  margin-right: 30px;
+}
+.yoga {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+.top-container {
+  padding-top: 10REM;
+}
+.bottom-container {
+  color: #91D2EF;
+  padding: 50px 0 20px;
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: .75em;
+  padding: 20px 0;
+}
+.footer-link {
+  margin: 2.5em;
+  color: #91D2EF;
+  padding-bottom: 1em;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+.contact-message {
+  width: 40%;
+  margin: auto;
+}
+
+.galaxy {
+  position:absolute;
+  left: 23REM;
+  z-index: -1;
+}
+ .capstone {
+  padding: 5REM;
+ }
